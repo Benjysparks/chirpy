@@ -1,0 +1,63 @@
+# POST http://localhost:8080/api/chirps
+# Content-Type: application/json
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJjaGlycHkiLCJzdWIiOiIxZDZkOWFiNC0zMjM4LTRkODAtOTJiNC03OWMwMDMwMDQ0YTYiLCJleHAiOjE3NDYzMDI3MDYsImlhdCI6MTc0NjI5OTEwNn0.jZmVby-Tm93qhBppTVDALX3pK9ejQBlmazCFP5snA_w
+
+# {
+#     "body": "This is a chirp!"
+# }
+
+# POST http://localhost:8080/api/users
+# Content-Type: application/json
+
+# {
+#     "email":"benmatthews92@hotmail.co.uk",
+#     "password":"Hello123"
+# }
+
+# GET http://localhost:8080/api/chirps/563e1340-3a46-4000-bd3f-377f0e973a71
+# Content-Type: application/json
+
+# POST http://localhost:8080/api/login
+# Content-Type: application/json
+
+# {
+#     "email":"benmatthews92@hotmail.co.uk",
+#     "password":"Hello123"
+    
+# }
+
+# POST http://localhost:8080/admin/reset
+
+# POST http://localhost:8080/api/refresh
+# Content-Type: application/json
+# Authorization: Bearer 85e4f13bef3305509b4dbe9d8de69e99c875abb26259dfb43938b03cee643330
+
+# PUT http://localhost:8080/api/users
+# Content-Type: application/json
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJjaGlycHkiLCJzdWIiOiIzNmNiYjY0Yy1kMDhmLTQ4YmUtYjU5Mi1jNmYxNjIwYTVlYjAiLCJleHAiOjE3NDYxMzE1OTIsImlhdCI6MTc0NjEyNzk5Mn0.7u8OErIUOCO4Cj5mf7wNe9dbF4nagDa2db-iqzenGr0
+
+# {
+#     "email":"benmatthews69@hotmail.co.uk",
+#     "password":"Hello321"
+    
+# }
+
+# DELETE http://localhost:8080/api/chirps/563e1340-3a46-4000-bd3f-377f0e973a71
+# Content-Type: application/json
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJjaGlycHkiLCJzdWIiOiI4YzUyMGJlZi1jMTg4LTRmNjItOTZmYS02OWM2MzlkMDFmMjciLCJleHAiOjE3NDYyMTk0MTYsImlhdCI6MTc0NjIxNTgxNn0.kXJMmT9vVzOwCO4ehH7Ld9dBEEMu4EA3uKog3zYcKeM
+
+# POST http://localhost:8080/api/polka/webhooks
+# Content-Type: application/json
+
+# {
+#   "event": "user.upgraded",
+#   "data": {
+#     "user_id": "3311741c-680c-4546-99f3-fc9efac2036c"
+#   }
+# }
+
+# GET http://localhost:8080/api/chirps?author_id=1d6d9ab4-3238-4d80-92b4-79c0030044a6
+# Content-Type: application/json
+
+GET http://localhost:8080/api/showusers
+Content-Type: application/json
